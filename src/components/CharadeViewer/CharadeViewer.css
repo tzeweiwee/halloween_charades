@@ -1,0 +1,17 @@
+.charadeWords{
+    font-size: 100px;
+    word-break: keep-all;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.charadeWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height:650px;
+  max-height: 650px;
+  width: 100%;
+  text-align: center;
+}
+  

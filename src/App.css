@@ -1,0 +1,89 @@
+body{
+  background-color: purple;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: orange;
+  overflow-x: hidden;
+  /* position:fixed !important;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0; */
+  background-image: url('./background.jpg');
+  overflow:hidden;
+}
+
+.gameTitle{
+  font-family: 'Caveat Brush', cursive;
+  font-size: 80px;
+}
+
+.instructionTitle{
+  font-size: 60px;
+  margin: -10px;
+}
+
+.instructionDetails{
+  font-size: 40px;
+  margin: 50px;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+  list-style-type: simp-chinese-informal;
+}
+
+.InitialScreenWrapper{
+  height: 800px;
+  font-family: 'Caveat Brush', cursive;
+} 
+
+.GameScreenWrapper{
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.scoreDisplay{
+  font-size:60px;
+  margin-bottom: 20px;
+}
+
+.startButton{
+  margin-top: 30px;
+}
+
+.gameButton{
+  height: 60px;
+  width: 150px;
+  background: coral;
+  border-radius: 18%;
+  border: 3px black solid;
+  font-size: 36px;
+  font-family: 'Montserrat';
+  margin: 5px;
+}
+
+.gameButton:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.gameButton:hover{
+  background: #7a4f00;
+  color: yellow;
+  cursor: pointer;
+  border-color: orange;
+}
+
+.buttonControls{
+  align-items: center;
+  display: flex;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.buttonWrapper{
+  flex: 1;
+}
